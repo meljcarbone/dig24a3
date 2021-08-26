@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Header and Meta Details including the links to the CSS and JAvascript-->
+
+<head>
+  <title>Luxe Watch Design</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.48/dist/themes/light.css">
+  
+  <link rel="stylesheet" href="styles/style.css">
+  <link type="text/css" rel="stylesheet" href="styles/lightgallery.css"/>
+  <link rel="stylesheet" href="https://use.typekit.net/yng5alp.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="styles/bootstrap.css">
+  <link rel="stylesheet" href="styles/docSlider.scss">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+<header>
+
+
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active"><img src="images/logo.png" alt="logo"></a>
+    <a href="#home"> HOME </a>
+    <a href="#about"> ABOUT </a>
+    <a href="#products"> PRODUCTS </a>
+    <a href="#contact">CONTACT US</a>
+    <a href="javascript:void (0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+</header>
+
+  <section class="hero"> </section>
+
+  
+
+    <a id="about">  </a>
+    <div class="center"> Luxury Watch Design are Australias leading luxury Swiss watch retailer. 
+      Luxury Watch Design specialises in the worlds finest watch making brands, led by a team of 
+      service professionals, this family owned and run store will make buying your own piece of time, memorable.
+    <br> Purchases are to be arranged over the phone, where a time can be made to visit our store. 
+    <br><br>
+    We specialise in these luxury brands<br>
+    
+    
+    <div class="row">
+      <div class="column">
+        <img src="images/alllogos.png" alt="alllogo" style="width: 100%;">
+  </div>
+  </div>
+</div>
+
+  <section class="hero2"> </section>
+  <h2><a id="products"></a></h2>
+<!-- Slideshow -->
+
+
+<div class="slideshow-container">
+
+<div class="mySlides">
+  <div class="numbertext">1/4</div>
+  <div class="text">Tag Heuer</div>
+  <img src="images/tag.png" alt="tag1" style="width: 100%;">
+  
+</div>
+
+<div class="mySlides">
+  <div class="numbertext">2/4</div>
+  <div class="text">Rolex</div>
+  <img src="images/rolex.png" alt="tag2" style="width: 100%;">
+ 
+</div>
+<div class="mySlides">
+  <div class="numbertext">3/4</div>
+  <div class="text">Breitling</div>
+  <img src="images/breitling.png" alt="tag3" style="width: 100%;">
+  
+</div>
+<div class="mySlides">
+  <div class="numbertext">4/4</div>
+  <div class="text">Cartier</div>
+  <img src="images/cartier.png" alt="tag4" style="width: 100%;">
+  
+</div>
+<a class="prev" onclick="plusDivs(-1)">&#10094;</a>
+<a class="next" onclick="plusDivs(+1)">&#10095;</a>
+</div>
+<br>
+
+
+
+
+  </body>
+
+   
+  <sl-drawer label="Contact Us" class="drawer-overview">
+    <img src="images/LWD.png" alt="logo"><br><br><br>
+    <br><br>Phone: 0450 434 232<br><br>Email: contactus@luxurywatchdesign.com
+    <sl-button slot="footer" type="primary">Close</sl-button> 
+  </sl-drawer>
+
+  <sl-tooltip content="Click For More Info">
+    <sl-button>Contact Information</sl-button>
+  </sl-tooltip>
+  
+    <a id="contact"> </a> 
+    <footer>
+    <div class="footercontainer">
+      <div style="text-align: center">
+      </div>
+      <div class="row">
+        <div class="contactcolumn">
+        </div>
+        <div class="contatcolumn">
+          <sl-form class="form-overview">
+            <sl-input name="name" type="text" label="Name"></sl-input>
+            <br>
+            <sl-select name="information" label="What Would You Like More Information With?">
+              <sl-menu-item value="price">Please Send a Price List</sl-menu-item>
+              <sl-menu-item value="stock">Is This Item In Stock?</sl-menu-item>
+              <sl-menu-item value="payment">What Are The Payment Options?</sl-menu-item>
+            </sl-select>
+            <br>
+          <sl-checkbox name="agree" value="yes">Send Now?</sl-checkbox>
+          <br><br>
+          <sl-button submit>Submit</sl-button>
+          </sl-form>
+          
+        </div>
+      </div>
+    </div>
+    
+      <a href="http://www.facebook.com" class="fa fa-facebook w3-spin"></a>
+    <a href="http://www.instagram.com" class="fa fa-instagram w3-spin"></a>
+    <a href="http://www.twitter.com" class="fa fa-twitter w3-spin"></a>
+    <a href="http://www.pinterest.com" class="fa fa-pinterest w3-spin"></a> 
+    </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script type="module"
+  src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.48/dist/shoelace.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+  <script src="../Root/script/main.js"></script>
+
+</html>
